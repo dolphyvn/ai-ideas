@@ -1,0 +1,65 @@
+{
+  "id": "2026-03-01-teen-social-therapy-ai",
+  "name": "TeenTalk AI - Peer Support Mental Health Network",
+  "cycle": 11,
+  "date": "2026-03-01",
+  "score": 8.0,
+  "verdict": "PURSUE",
+  "category": "Consumer AI - Mental Health",
+  "concept": "Peer-to-peer mental health support network for teens (13-19) powered by AI-moderated group therapy, emotional wellness tracking, and crisis escalation",
+  "moat_type": "Data Moat + Viral Mechanics",
+  "target_market": "Teens 13-19 with mild-to-moderate mental health challenges",
+  "business_model": "B2C Subscription ($49-149/month)",
+  "scores": {
+    "data_moat_strength": 9,
+    "network_effects": 8,
+    "workflow_complexity": 6,
+    "market_urgency": 10,
+    "defensibility": 7,
+    "overall": 8.0
+  },
+  "key_metrics": {
+    "cac": 75,
+    "ltv": 588,
+    "ltv_cac_ratio": 7.8,
+    "viral_coefficient": 1.3,
+    "monthly_retention": 0.6
+  },
+  "market_size": {
+    "total_addressable_market": "25M US teens",
+    "serviceable_addressable_market": "5M teens with severe mental health issues",
+    "year_1_revenue": 1800000,
+    "year_3_revenue": 141600000,
+    "year_5_revenue": 360000000
+  },
+  "competitive_advantage": [
+    "Teen-specific design (not adapted from adult products)",
+    "AI-moderated groups (scalable peer support)",
+    "Crisis infrastructure (24/7 human safety net)",
+    "School distribution channel",
+    "Data moat (teen conversational data)"
+  ],
+  "primary_risks": [
+    "Safety liability (critical)",
+    "COPPA compliance",
+    "Parent trust barrier",
+    "Moderation costs",
+    "Regulatory uncertainty"
+  ],
+  "sources": [
+    "CDC Youth Risk Behavior Survey 2023",
+    "APA Workforce Projections 2025",
+    "US Department of Education Mental Health Funding 2026",
+    "FTC COPPA Compliance Guide",
+    "Journal of Adolescent Health 2024"
+  ],
+  "tags": ["consumer", "mental-health", "b2c", "viral", "data-moat", "teen", "crisis-intervention"],
+  "status": "selected",
+  "next_steps": [
+    "Safety infrastructure design",
+    "Clinical advisory board formation",
+    "COPPA compliance review",
+    "School pilot partnerships",
+    "Teen co-design research"
+  ]
+}
