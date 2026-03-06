@@ -1,0 +1,14 @@
+{
+  "individual_scores": {
+    "Market Size": 9,
+    "Pain Level": 8,
+    "AI Advantage": 7,
+    "Defensibility": 6,
+    "Founder-Market Fit": 7,
+    "Speed to Revenue": 8,
+    "Viral Potential": 7
+  },
+  "weighted_score": 7.4,
+  "recommendation": "GO",
+  "reasoning": "Strong market of 1.2M teachers with clear regulatory pain and direct path to revenue through subscription model. AI advantage provides real differentiation in navigating complex state pathways, though defensibility against education giants requires building strong user relationships and proprietary data."
+}

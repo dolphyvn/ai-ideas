@@ -1,0 +1,14 @@
+{
+  "scores": {
+    "Market Size": 8,
+    "Pain Level": 9,
+    "AI Advantage": 7,
+    "Defensibility": 6,
+    "Founder-Market Fit": 5,
+    "Speed to Revenue": 8,
+    "Viral Potential": 7
+  },
+  "weighted_score": 7.1,
+  "recommendation": "GO",
+  "reasoning": "South Africa's tax and BEE compliance landscape presents significant regulatory pain with high stakes. The mid-market segment is underserved by expensive consultants and lacks automation. AI provides meaningful advantage in document processing and compliance tracking. Revenue potential is solid at ZAR 114K annually. While defensibility is moderate (SARS integration creates barriers), speed to revenue is achievable through phased approach. Founder validation within 8 weeks is challenging but possible through industry expert interviews. Viral potential exists in SA business communities where compliance pain is shared."
+}

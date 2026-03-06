@@ -1,0 +1,15 @@
+{
+  "venture": "ThreadWeaver",
+  "scores": {
+    "market_size": 7,
+    "pain_level": 6,
+    "ai_advantage": 5,
+    "defensibility": 4,
+    "founder_market_fit": 7,
+    "speed_to_revenue": 8,
+    "viral_potential": 7
+  },
+  "weighted_score": 5.86,
+  "recommendation": "NO-GO",
+  "reasoning": "ThreadWeaver addresses a real but fragmented pain point in creator content production. However, it scores poorly on defensibility (low barrier to entry, AI tools can be replicated), AI advantage (limited automation beyond what existing tools do), and market uniqueness (overlaps with established platforms like Buffer, Hootsuite, and AI writing assistants). The $20/month ARPU is attractive but the business lacks moats - competitors can quickly add similar features, and AI content generation is becoming commoditized. Alternative ventures like SparkCommunityAI (8.0/10) show stronger positioning in the creator economy automation space."
+}

@@ -1,0 +1,15 @@
+{
+  "venture": "HireFlowAI",
+  "scores": {
+    "market_size": 8,
+    "pain_level": 9,
+    "ai_advantage": 7,
+    "defensibility": 6,
+    "founder_market_fit": 8,
+    "speed_to_revenue": 9,
+    "viral_potential": 8
+  },
+  "weighted_score": 7.86,
+  "recommendation": "GO",
+  "reasoning": "Strong execution gap in hiring with clear AI value proposition. Series B+ companies with high-volume hiring needs present a large, underserved market willing to pay premium for automation."
+}

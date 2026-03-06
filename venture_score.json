@@ -1,0 +1,15 @@
+{
+  "venture": "SubSlayer",
+  "scores": {
+    "Market Size": 8,
+    "Pain Level": 7,
+    "AI Advantage": 6,
+    "Defensibility": 5,
+    "Founder-Market Fit": 9,
+    "Speed to Revenue": 8,
+    "Viral Potential": 7
+  },
+  "weighted_score": 7.1,
+  "recommendation": "GO",
+  "reasoning": "Strong market opportunity with growing subscription fatigue, AI automation solves real pain points in cancellation process. Founder-friendly validation path through bank statement scraping MVP. Lower defensibility due to ease of replication but good viral potential through word-of-mouth about saving money. Weighted score indicates strong potential with manageable execution risks."
+}
