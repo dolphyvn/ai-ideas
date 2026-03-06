@@ -1,0 +1,59 @@
+{
+  "id": "2026-03-06-dotmed-shield",
+  "name": "DOTMed Shield - CDL Medical Compliance Platform",
+  "cycle": 108,
+  "date": "2026-03-06",
+  "score": null,
+  "verdict": "PENDING",
+  "category": "Transportation - Medical Compliance",
+  "concept": "AI-powered DOT medical card compliance platform for trucking companies. Tracks CDL driver medical certifications, predicts expirations, schedules exams, and automates documentation for DOT audits.",
+  "moat_type": "Data Moat + Regulatory Fragmentation",
+  "target_market": "Trucking companies with 20+ commercial drivers (150K fleets)",
+  "business_model": "B2B SaaS - Small fleet $500/mo, Mid fleet $1,500/mo, Large fleet $4,000/mo + $2/driver/mo",
+  "market_size": {
+    "total_addressable_market": "3.5M commercial drivers",
+    "serviceable_addressable_market": "2M drivers at fleets with 20+ trucks",
+    "year_1_revenue": 3000000,
+    "year_3_revenue": 45000000,
+    "year_5_revenue": 85000000
+  },
+  "practice_blocking_urgency": {
+    "type": "Binary - Cannot drive commercially",
+    "impact": "$1,000+ daily loss per driver out of service, DOT audit fines $1,000-10K per non-compliant driver",
+    "renewal_frequency": "Every 2 years (1 year for drivers 65+)"
+  },
+  "ai_advantage": [
+    "Expiration prediction: ML predicts driver medical card expiration risk based on age, conditions, medical history",
+    "AME network optimization: NLP-based matching of drivers to certified medical examiners",
+    "Audit document generation: Auto-generates DOT audit-ready medical compliance reports",
+    "Condition risk scoring: AI analyzes driver health conditions for DOT disqualification risk"
+  ],
+  "competitive_advantage": [
+    "Proprietary database of 50,000+ DOT medical examiners with specialization data",
+    "Driver medical history database (with consent)",
+    "Integration with DOT clearinghouse and FMCSA systems",
+    "Condition-based deferral prediction models"
+  ],
+  "primary_risks": [
+    "Driver privacy concerns (medical data sensitivity)",
+    "Integration complexity with legacy fleet management systems",
+    "Price sensitivity of small fleets",
+    "Regulatory changes to DOT medical requirements"
+  ],
+  "key_metrics": {
+    "cac": 2000,
+    "ltv": 36000,
+    "ltv_cac_ratio": 18,
+    "monthly_churn": 0.04,
+    "arpu_enterprise": 4000
+  },
+  "sources": [
+    "FMCSA Medical Certification Statistics 2025",
+    "DOT Medical Examiner Registry",
+    "American Trucking Associations Workforce Report",
+    "FMCSA Clearinghouse enrollment data"
+  ],
+  "tags": ["transportation", "cdl", "medical-compliance", "b2b", "regulatory", "practice-blocking"],
+  "status": "pending",
+  "next_steps": ["FMCSA API access assessment", "Pilot fleet recruitment", "AME database build", "DOT audit report template creation"]
+}

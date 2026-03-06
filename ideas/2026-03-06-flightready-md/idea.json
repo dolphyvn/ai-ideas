@@ -1,0 +1,58 @@
+{
+  "id": "2026-03-06-flightready-md",
+  "name": "FlightReady MD - FAA Medical Exam Preparation",
+  "cycle": 108,
+  "date": "2026-03-06",
+  "score": null,
+  "verdict": "PENDING",
+  "category": "Aviation - Medical Exam Prep",
+  "concept": "AI copilot for FAA medical exam preparation. Ingests pilot medical history, medications, and conditions to generate pre-AME exam reports identifying potential deferral issues and required documentation.",
+  "moat_type": "Data Moat + Medication Database",
+  "target_market": "Commercial pilots seeking First/Second Class medical (60K pilots)",
+  "business_model": "B2C - $149/exam or $39/year, B2B - $5,000/year flight department",
+  "market_size": {
+    "total_addressable_market": "200K pilots",
+    "serviceable_addressable_market": "60K pilots seeking First/Second Class medical (commercial)",
+    "year_1_revenue": 400000,
+    "year_3_revenue": 8000000,
+    "year_5_revenue": 15000000
+  },
+  "practice_blocking_urgency": {
+    "type": "Binary - Medical deferral = grounded",
+    "impact": "Commercial pilots lose $15K-60K income during 45-180 day deferral resolution",
+    "renewal_frequency": "Every 6-24 months depending on age/class"
+  },
+  "ai_advantage": [
+    "Medication cross-reference: LLM checks all medications against FAA disallowed list (constantly updated)",
+    "Condition documentation generator: Creates AME-specific documentation packets for common conditions",
+    "Deferral risk score: ML predicts likelihood of medical deferral based on condition/medication profile",
+    "AME selection: Recommends AMEs with experience handling specific conditions"
+  ],
+  "competitive_advantage": [
+    "Database of 50,000+ real AME exam outcomes",
+    "Medication FAA approval status (constantly changing)",
+    "Condition-specific success rate data by AME",
+    "AME specialization patterns"
+  ],
+  "primary_risks": [
+    "Deferral prediction accuracy (legal liability if wrong)",
+    "One-time purchase pattern (low recurring revenue)",
+    "Competition from free AOPA/EAA resources",
+    "Low individual pilot willingness-to-pay"
+  ],
+  "key_metrics": {
+    "cac": 75,
+    "ltv": 180,
+    "ltv_cac_ratio": 2.4,
+    "monthly_churn": 0.10,
+    "arpu_per_exam": 149
+  },
+  "sources": [
+    "FAA Guide for Aviation Medical Examiners",
+    "AOPA Medical Certification Resources",
+    "BasicMed eligibility statistics"
+  ],
+  "tags": ["aviation", "medical-exam", "pilots", "faa", "b2c", "exam-prep"],
+  "status": "pending",
+  "next_steps": ["AME exam outcomes database build", "Medication FAA status API", "Commercial pilot recruitment", "Deferral prediction model validation"]
+}

@@ -1,0 +1,59 @@
+{
+  "id": "2026-03-06-petracker-pro",
+  "name": "PETracker Pro - Professional Engineer License Compliance",
+  "cycle": 108,
+  "date": "2026-03-06",
+  "score": null,
+  "verdict": "PENDING",
+  "category": "Engineering - License Compliance",
+  "concept": "AI-powered Professional Engineer license compliance platform. Tracks PE licenses across 50 states, manages continuing education requirements, and automates NCEES record updates for multi-state practice.",
+  "moat_type": "Data Moat + 50-State Fragmentation",
+  "target_market": "Engineering firms with multi-state operations (3K firms) and individual PEs",
+  "business_model": "B2C - $29/mo or $290/year, B2B - $350/mo small firm, $1,000/mo large firm + $8/PE/mo",
+  "market_size": {
+    "total_addressable_market": "800K Professional Engineers",
+    "serviceable_addressable_market": "300K PEs with multi-state licenses or multi-state projects",
+    "year_1_revenue": 500000,
+    "year_3_revenue": 14000000,
+    "year_5_revenue": 28000000
+  },
+  "practice_blocking_urgency": {
+    "type": "Binary - Cannot sign/stamp engineering documents",
+    "impact": "Firm liability, $50K-500K/day project delays for infrastructure, immediate removal from projects",
+    "renewal_frequency": "Every 1-2 years depending on state"
+  },
+  "ai_advantage": [
+    "State board monitoring: AI scrapes 50+ state engineering boards for license status, disciplinary actions, rule changes",
+    "CE requirement tracker: LLM parses each state's PDH/CEU requirements and tracks completion",
+    "NCEES record management: Auto-updates NCEES records for license comity/reciprocity",
+    "Renewal automation: Generates state-specific renewal applications from existing data"
+  ],
+  "competitive_advantage": [
+    "50-state engineering board database with real-time monitoring",
+    "NCEES record integration and API access",
+    "State-specific CE requirement parsing (50 states = complexity)",
+    "Multi-state license reciprocity rules engine"
+  ],
+  "primary_risks": [
+    "Low individual PE willingness-to-pay (price sensitive)",
+    "State board website scraping challenges (anti-bot measures)",
+    "NCEES may launch competitive product",
+    "Individuals may rely on firms to pay"
+  ],
+  "key_metrics": {
+    "cac": 45,
+    "ltv": 580,
+    "ltv_cac_ratio": 13,
+    "monthly_churn": 0.04,
+    "arpu_individual": 29
+  },
+  "sources": [
+    "NCEES licensure statistics 2025",
+    "NSPE Professional Engineer survey",
+    "State engineering board license data",
+    "Continuing education requirement database"
+  ],
+  "tags": ["engineering", "license-compliance", "pe", "ncees", "b2b", "regulatory"],
+  "status": "pending",
+  "next_steps": ["State board scraping infrastructure", "NCEES API partnership", "Individual PE recruitment", "Firm sponsorship model"]
+}

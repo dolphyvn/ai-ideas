@@ -1,0 +1,59 @@
+{
+  "id": "2026-03-06-aeromed-guardian",
+  "name": "AeroMed Guardian AI - Pilot Medical Certificate Tracking",
+  "cycle": 108,
+  "date": "2026-03-06",
+  "score": null,
+  "verdict": "PENDING",
+  "category": "Aviation - Medical Compliance",
+  "concept": "AI-powered FAA medical certificate tracking and renewal platform for pilots and flight departments. Monitors medical expiration, predicts disqualifying conditions before AME exams, and automates the SI/SSPI waiver process.",
+  "moat_type": "Data Moat + Regulatory Complexity",
+  "target_market": "Flight departments, charter operators, flight schools (5K departments)",
+  "business_model": "B2B - $1,500/month (up to 10 pilots) or $4,000/month (unlimited), B2C - $29/month individual",
+  "market_size": {
+    "total_addressable_market": "200K pilots (150K private, 50K commercial)",
+    "serviceable_addressable_market": "80K pilots with active medical certificates",
+    "year_1_revenue": 800000,
+    "year_3_revenue": 18000000,
+    "year_5_revenue": 35000000
+  },
+  "practice_blocking_urgency": {
+    "type": "Binary - Cannot fly",
+    "impact": "Commercial pilots lose $5K-15K/week when grounded, flight departments lose $50K+/week per pilot",
+    "renewal_frequency": "Every 6-60 months depending on age/class"
+  },
+  "ai_advantage": [
+    "Predictive condition screening: AI analyzes pilot health data against FAA disqualifying conditions list",
+    "SI/SSPI waiver automation: LLMs generate waiver documentation from medical records",
+    "AME finder: NLP-based matching of pilots to medical examiners based on condition expertise",
+    "Expiry prediction: ML models predict medical deferral risk based on age, conditions, medications"
+  ],
+  "competitive_advantage": [
+    "Proprietary database of 3,000+ FAA AME specialization patterns",
+    "FAA medical form parsing expertise (MedXPress complexity)",
+    "Historical deferral/success rates by condition",
+    "Integration with FAA Pilot Records Database (PRD)"
+  ],
+  "primary_risks": [
+    "FAA regulatory approval required for PRD access",
+    "Pilot privacy concerns (medical data sensitivity)",
+    "AME resistance to AI-generated documentation",
+    "Low individual pilot adoption (price sensitivity)"
+  ],
+  "key_metrics": {
+    "cac": 500,
+    "ltv": 18000,
+    "ltv_cac_ratio": 36,
+    "monthly_churn": 0.03,
+    "arpu_enterprise": 4000
+  },
+  "sources": [
+    "FAA Airmen Certification Statistics 2025",
+    "FAA Aviation Medical Examiner Directory",
+    "AOPA Pilot Medical Resource Guide",
+    "NBAA Flight Department Operations Report"
+  ],
+  "tags": ["aviation", "medical-compliance", "pilots", "b2b", "regulatory", "practice-blocking"],
+  "status": "pending",
+  "next_steps": ["FAA PRD access application", "AME database build", "Flight department pilot recruitment", "Medical data privacy framework"]
+}

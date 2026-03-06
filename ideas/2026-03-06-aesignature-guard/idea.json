@@ -1,0 +1,59 @@
+{
+  "id": "2026-03-06-aesignature-guard",
+  "name": "AESignature Guard - A/E Multi-State License Compliance",
+  "cycle": 108,
+  "date": "2026-03-06",
+  "score": null,
+  "verdict": "PENDING",
+  "category": "Architecture/Engineering - License Compliance",
+  "concept": "AI-powered multi-state license tracking for architecture and engineering firms. Prevents unlicensed staff from signing/stamping drawings, tracks license expiration across 50+ state boards, and manages NCARB/NCEES record compliance.",
+  "moat_type": "Data Moat + Integration Moat",
+  "target_market": "Architecture and Engineering firms with multi-state operations (5K firms)",
+  "business_model": "B2B SaaS - Small firm $400/mo, Mid firm $1,200/mo, Large firm $3,000/mo + $5/professional/mo",
+  "market_size": {
+    "total_addressable_market": "920K A/E professionals (120K architects + 800K PEs)",
+    "serviceable_addressable_market": "300K professionals at multi-state firms",
+    "year_1_revenue": 2000000,
+    "year_3_revenue": 22000000,
+    "year_5_revenue": 42000000
+  },
+  "practice_blocking_urgency": {
+    "type": "Liability Blocking - Cannot sign/stamp drawings",
+    "impact": "Firm liability exposure, insurance void, potential license revocation, $10K-100K/day project delays",
+    "renewal_frequency": "Every 1-2 years depending on state"
+  },
+  "ai_advantage": [
+    "Stamp authority verification: AI verifies stamp/seal authority before drawings are signed via CAD plugin",
+    "Multi-state license tracking: Monitors 50+ state boards for license status, expiration, disciplinary actions",
+    "NCARB/NCEES record sync: Auto-syncs with council records for reciprocity",
+    "Project license requirements: AI matches professional licenses to project state requirements"
+  ],
+  "competitive_advantage": [
+    "50-state board license database with real-time status monitoring",
+    "CAD/Revit plugin integration (pre-signature verification)",
+    "NCARB/NCEES API access and integration",
+    "Stamp/seal verification database"
+  ],
+  "primary_risks": [
+    "CAD software partnership requirements (Autodesk, etc.)",
+    "State board data access limitations (no centralized API)",
+    "Slow firm adoption (risk-averse, traditional industry)",
+    "Limited individual market (B2B only)"
+  ],
+  "key_metrics": {
+    "cac": 1200,
+    "ltv": 42000,
+    "ltv_cac_ratio": 35,
+    "monthly_churn": 0.03,
+    "arpu_enterprise": 3000
+  },
+  "sources": [
+    "NCARB by the Numbers 2025",
+    "NCEES Survey of Professional Engineers",
+    "A/E firm size statistics (Zweig Group)",
+    "Multi-state licensing reciprocity data"
+  ],
+  "tags": ["architecture", "engineering", "license-compliance", "b2b", "regulatory", "cad-integration"],
+  "status": "pending",
+  "next_steps": ["CAD software partnership outreach", "State board scraping infrastructure", "NCARB/NCEES API access", "Pilot firm recruitment"]
+}

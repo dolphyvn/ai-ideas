@@ -1,0 +1,58 @@
+{
+  "id": "2026-03-06-clearancejet",
+  "name": "ClearanceJet - Pilot SI/SSPI Waiver Automation",
+  "cycle": 108,
+  "date": "2026-03-06",
+  "score": null,
+  "verdict": "PENDING",
+  "category": "Aviation - Waiver Automation",
+  "concept": "AI-powered Special Issuance (SI) and Statement of Demonstrated Ability (SODA) waiver automation platform for pilots with disqualifying conditions. Automates the complex documentation process for conditions requiring FAA clearance.",
+  "moat_type": "Data Moat + Condition-Specific Templates",
+  "target_market": "Pilots with SI/SSPI waivers (30K pilots)",
+  "business_model": "B2C - $499/waiver application, $299/waiver renewal, B2B - $12,000/year flight department unlimited",
+  "market_size": {
+    "total_addressable_market": "200K pilots",
+    "serviceable_addressable_market": "30K pilots with SI/SSPI waivers (ADD, depression, hypertension, vision)",
+    "year_1_revenue": 300000,
+    "year_3_revenue": 6000000,
+    "year_5_revenue": 12000000
+  },
+  "practice_blocking_urgency": {
+    "type": "Binary - Waiver expiration = cannot fly",
+    "impact": "Commercial pilots lose $15K-60K during 60-180 day waiver processing, grounding during renewal",
+    "renewal_frequency": "Annually for most SI/SSPI waivers"
+  },
+  "ai_advantage": [
+    "Condition-specific documentation: Generates FAA-required documentation packets for 50+ common conditions",
+    "Physician letter generator: Creates AME/physician letters meeting FAA requirements",
+    "Waiver timeline prediction: ML estimates waiver approval time based on condition backlog",
+    "Document checklist: AI identifies missing documents from medical records before submission"
+  ],
+  "competitive_advantage": [
+    "Condition-specific FAA waiver templates (50+ conditions)",
+    "Historical waiver approval/rejection rate data",
+    "Aerospace Medicine Physician network",
+    "Integration with FAA SI application tracking"
+  ],
+  "primary_risks": [
+    "Small niche market (30K pilots with waivers)",
+    "One-time-heavy revenue pattern (per application, not subscription)",
+    "FAA changing waiver requirements (regulatory risk)",
+    "Limited expansion potential (niche within niche)"
+  ],
+  "key_metrics": {
+    "cac": 200,
+    "ltv": 600,
+    "ltv_cac_ratio": 3,
+    "monthly_churn": 0.10,
+    "arpu_per_waiver": 499
+  },
+  "sources": [
+    "FAA Special Issuance Procedures",
+    "Virtual Flight Surgeons waiver statistics",
+    "AOPA waiver assistance program data"
+  ],
+  "tags": ["aviation", "waiver-automation", "pilots", "faa", "b2c", "niche"],
+  "status": "pending",
+  "next_steps": ["FAA waiver template library build", "Aerospace medicine physician network", "Pilot with waiver recruitment", "Success rate tracking"]
+}

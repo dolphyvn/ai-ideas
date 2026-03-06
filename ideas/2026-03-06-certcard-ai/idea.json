@@ -1,0 +1,58 @@
+{
+  "id": "2026-03-06-certcard-ai",
+  "name": "CertCard AI - DOT Medical Card Renewal Automation",
+  "cycle": 108,
+  "date": "2026-03-06",
+  "score": null,
+  "verdict": "PENDING",
+  "category": "Transportation - Renewal Automation",
+  "concept": "AI-powered DOT medical card renewal automation. Automatically schedules driver medical exams, retrieves digital medical cards from examiners, updates FMCSA/DOT systems, and maintains compliance records.",
+  "moat_type": "Integration Moat + AME Network",
+  "target_market": "Trucking companies with 20+ drivers (150K fleets)",
+  "business_model": "B2B - $35/renewal transactional, $12/driver/year subscription, $1,500/mo + $8/driver/year enterprise",
+  "market_size": {
+    "total_addressable_market": "3.5M CDL drivers",
+    "serviceable_addressable_market": "2M drivers at fleets with 20+ trucks",
+    "year_1_revenue": 400000,
+    "year_3_revenue": 18000000,
+    "year_5_revenue": 38000000
+  },
+  "practice_blocking_urgency": {
+    "type": "Binary - Card expiration = driver out of service",
+    "impact": "Fleet operations disruption, route cancellations, DOT audit penalties $1K-10K per non-compliant driver",
+    "renewal_frequency": "Every 2 years"
+  },
+  "ai_advantage": [
+    "Smart scheduling: ML optimizes exam scheduling around driver routes, minimizing time off",
+    "AME availability: NLP extracts real-time availability from medical examiner offices",
+    "Digital card retrieval: AI retrieves and digitizes medical cards from examiner systems",
+    "FMCSA integration: Auto-updates DOT systems (where API available)"
+  ],
+  "competitive_advantage": [
+    "AME availability database (50,000+ examiners)",
+    "Integration with major medical examiner EHR systems",
+    "DOT medical card template library",
+    "Fleet scheduling system integration"
+  ],
+  "primary_risks": [
+    "Thin margins ($8-12/driver/year)",
+    "AME system integration complexity (fragmented systems)",
+    "Low switching costs (commodity features)",
+    "FMCSA API limitations (incomplete data access)"
+  ],
+  "key_metrics": {
+    "cac": 500,
+    "ltv": 24000,
+    "ltv_cac_ratio": 48,
+    "monthly_churn": 0.06,
+    "arpu_per_driver": 8
+  },
+  "sources": [
+    "FMCSA Medical Card Renewal Statistics",
+    "DOT Medical Examiner Registry",
+    "Trucking fleet operations benchmarks"
+  ],
+  "tags": ["transportation", "cdl", "renewal-automation", "b2b", "scheduling", "compliance"],
+  "status": "pending",
+  "next_steps": ["AME EHR system integrations", "Fleet scheduling system partnerships", "FMCSA API access", "Driver scheduling optimization model"]
+}

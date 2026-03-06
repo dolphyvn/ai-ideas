@@ -1,0 +1,59 @@
+{
+  "id": "2026-03-06-driverready-ai",
+  "name": "DriverReady AI - DOT Medical Exam Preparation",
+  "cycle": 108,
+  "date": "2026-03-06",
+  "score": null,
+  "verdict": "PENDING",
+  "category": "Transportation - Medical Exam Prep",
+  "concept": "AI-powered DOT medical exam preparation for CDL drivers. Identifies potential disqualifying conditions before medical exams, generates required documentation for waivers, and matches drivers with sympathetic medical examiners.",
+  "moat_type": "Data Moat + AME Network",
+  "target_market": "CDL drivers with ongoing medical compliance needs (2M drivers)",
+  "business_model": "B2C - $79/exam or $149/year, B2B - $25/driver/year (employer-sponsored)",
+  "market_size": {
+    "total_addressable_market": "3.5M CDL drivers",
+    "serviceable_addressable_market": "2M drivers with ongoing medical compliance needs",
+    "year_1_revenue": 600000,
+    "year_3_revenue": 22000000,
+    "year_5_revenue": 45000000
+  },
+  "practice_blocking_urgency": {
+    "type": "Binary - Exam failure = cannot drive",
+    "impact": "Driver income loss $1,000-2,500/week, retraining costs $3K-8K if license revoked",
+    "renewal_frequency": "Every 2 years"
+  },
+  "ai_advantage": [
+    "Condition screening: AI analyzes driver health data against DOT disqualifying conditions list",
+    "Medication checker: LLM checks all medications against FMCSA guidelines",
+    "Waiver documentation: Generates exemption/Sleep Apnea exemption documentation",
+    "AME finder: NLP-based matching to medical examiners experienced with specific conditions"
+  ],
+  "competitive_advantage": [
+    "DOT medical form database (long form complexity)",
+    "Condition-specific approval rate data by AME",
+    "AME specialization patterns (50,000+ examiners)",
+    "Medication FMCSA status database"
+  ],
+  "primary_risks": [
+    "Low individual driver willingness-to-pay (price sensitive)",
+    "One-time purchase pattern (per exam, not recurring)",
+    "Competition from free employer resources",
+    "Driver tech adoption barriers (older demographic)"
+  ],
+  "key_metrics": {
+    "cac": 35,
+    "ltv": 200,
+    "ltv_cac_ratio": 5.7,
+    "monthly_churn": 0.08,
+    "arpu_individual": 149
+  },
+  "sources": [
+    "FMCSA Medical Examiner Handbook",
+    "DOT Disqualifying Conditions List",
+    "Sleep apnea exemption statistics",
+    "National Sleep Foundation trucking studies"
+  ],
+  "tags": ["transportation", "cdl", "medical-exam", "b2c", "b2b", "exam-prep"],
+  "status": "pending",
+  "next_steps": ["AME database build", "Driver recruitment via carriers", "Medication checker development", "Exam pass rate study"]
+}

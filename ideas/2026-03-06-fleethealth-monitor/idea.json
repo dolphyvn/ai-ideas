@@ -1,0 +1,59 @@
+{
+  "id": "2026-03-06-fleethealth-monitor",
+  "name": "FleetHealth Monitor - Driver Population Health Platform",
+  "cycle": 108,
+  "date": "2026-03-06",
+  "score": null,
+  "verdict": "PENDING",
+  "category": "Transportation - Population Health",
+  "concept": "AI-powered population health monitoring for trucking fleets. Proactively identifies drivers at risk of DOT medical disqualification (hypertension, diabetes, sleep apnea) and connects them with interventions before medical exam failure.",
+  "moat_type": "Data Moat + Prediction Models",
+  "target_market": "Large trucking fleets with 100+ drivers (20K fleets)",
+  "business_model": "B2B SaaS - $15/driver/month or $2,000/mo platform + $10/driver/month",
+  "market_size": {
+    "total_addressable_market": "150K trucking companies",
+    "serviceable_addressable_market": "20K large fleets with 100+ drivers",
+    "year_1_revenue": 1500000,
+    "year_3_revenue": 28000000,
+    "year_5_revenue": 55000000
+  },
+  "practice_blocking_urgency": {
+    "type": "Predictive - Prevents driver out-of-service",
+    "impact": "$1,000+ daily revenue loss per driver, $8K-15K driver replacement cost, fleet disruption",
+    "renewal_frequency": "Ongoing monitoring"
+  },
+  "ai_advantage": [
+    "Risk prediction: ML identifies drivers at risk of future medical disqualification based on claims data, prescriptions, demographics",
+    "Condition tracking: Monitors chronic condition management (diabetes, hypertension, sleep apnea)",
+    "Intervention matching: AI recommends appropriate interventions (telehealth, specialists, wellness programs)",
+    "Cost-benefit analysis: ROI calculator for proactive health interventions vs. driver turnover"
+  ],
+  "competitive_advantage": [
+    "Driver health risk prediction models trained on claims data",
+    "Integration with fleet health insurance claims data",
+    "DOT medical outcome database",
+    "Intervention effectiveness tracking"
+  ],
+  "primary_risks": [
+    "Driver data privacy concerns (HIPAA + employment law)",
+    "Integration complexity with insurance claims data",
+    "Driver resistance to health monitoring (trust issues)",
+    "Difficulty proving ROI to fleet managers"
+  ],
+  "key_metrics": {
+    "cac": 1500,
+    "ltv": 72000,
+    "ltv_cac_ratio": 48,
+    "monthly_churn": 0.05,
+    "arpu_per_driver": 15
+  },
+  "sources": [
+    "FMCSA driver health statistics",
+    "Trucking insurance claims data (industry reports)",
+    "Sleep apnea prevalence in transportation studies",
+    "Occupational health research literature"
+  ],
+  "tags": ["transportation", "population-health", "predictive-ai", "b2b", "wellness", "driver-retention"],
+  "status": "pending",
+  "next_steps": ["Insurance claims data partnership", "Pilot fleet recruitment", "Risk model validation", "Privacy framework design"]
+}

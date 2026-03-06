@@ -1,0 +1,59 @@
+{
+  "id": "2026-03-06-stampshield-ai",
+  "name": "StampShield AI - A/E Liability Protection Platform",
+  "cycle": 108,
+  "date": "2026-03-06",
+  "score": null,
+  "verdict": "PENDING",
+  "category": "Architecture/Engineering - Liability Protection",
+  "concept": "AI-powered liability protection for A/E firms. Verifies license authority before document signing, maintains audit trails of all stamped drawings, and prevents unauthorized signatures that could void insurance or expose firms to liability.",
+  "moat_type": "Integration Moat + Audit Trail System",
+  "target_market": "A/E firms with significant liability exposure (10K firms doing commercial/infrastructure work)",
+  "business_model": "B2B SaaS - $250/project (transactional) or $5,000/year (unlimited) or $15,000/year enterprise",
+  "market_size": {
+    "total_addressable_market": "30K A/E firms",
+    "serviceable_addressable_market": "10K firms with commercial/infrastructure projects",
+    "year_1_revenue": 1000000,
+    "year_3_revenue": 12000000,
+    "year_5_revenue": 25000000
+  },
+  "practice_blocking_urgency": {
+    "type": "Liability Blocking - Insurance void, firm liability",
+    "impact": "Project stoppage $50K-500K/day, $25K-100K legal fees, reputation damage, potential firm bankruptcy",
+    "renewal_frequency": "Annual subscription or per-project"
+  },
+  "ai_advantage": [
+    "Pre-signature verification: CAD plugin AI verifies license authority before stamp/seal is applied",
+    "Document audit trail: Blockchain-style record of all signed documents, licenses, timestamps",
+    "Risk scoring: ML analyzes project documents for signature liability risks",
+    "License status alerts: Real-time alerts when license expires or disciplinary action occurs"
+  ],
+  "competitive_advantage": [
+    "CAD software integration (AutoCAD, Revit, Civil 3D plugin)",
+    "Blockchain-style immutable audit trail system",
+    "Professional liability insurance company partnerships",
+    "State board real-time data feeds"
+  ],
+  "primary_risks": [
+    "CAD software partnership dependency (Autodesk, Bentley)",
+    "Legal liability exposure for missed violations",
+    "Firms may hire internal compliance staff instead",
+    "Slow A/E industry adoption (traditional, risk-averse)"
+  ],
+  "key_metrics": {
+    "cac": 1500,
+    "ltv": 30000,
+    "ltv_cac_ratio": 20,
+    "monthly_churn": 0.05,
+    "arpu_enterprise": 15000
+  },
+  "sources": [
+    "A/E professional liability insurance claims data",
+    "NCARB/NCEES disciplinary statistics",
+    "AIA/Ace industry risk management reports",
+    "Construction project delay cost studies"
+  ],
+  "tags": ["architecture", "engineering", "liability-protection", "b2b", "audit-trail", "cad-integration"],
+  "status": "pending",
+  "next_steps": ["CAD software partnership outreach", "Professional liability insurance partnerships", "Audit trail infrastructure", "Legal review of liability exposure"]
+}
